@@ -1,0 +1,7 @@
+WebElement element = driver.findElement(By.name("q"));
+
+if(element.isEnabled()) {
+    System.out.println("Enabled");
+    element.sendKeys("Test Automation");
+    element.submit();
+}
